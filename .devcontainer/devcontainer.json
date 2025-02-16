@@ -10,6 +10,29 @@
     "server": "npm start"
   },
   "customizations": {
+    "vscode": {
+      "settings": {
+        "workbench.colorTheme": "Monospace Light",
+        "cmake.showOptionsMovedNotification": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "git.enableSmartCommit": true,
+        "git.confirmSync": false,
+        "workbench.iconTheme": "monospace-icons",
+        "window.menuBarVisibility": "visible",
+        "terminal.integrated.focusAfterRun": "terminal"
+      },
+      "extensions": [
+        "esbenp.prettier-vscode",
+        "NuclleaR.vscode-extension-auto-import",
+        "github.copilot",
+        "github.copilot-chat",
+        "ms-vsliveshare.vsliveshare",
+        "keksiqc.idx-monospace-theme"
+      ]
+    },
     "codespaces": {
       "openFiles": [
         "src/App.jsx"
